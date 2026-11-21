@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> Dynamic Cards</h1>
+    <div id="card-list"></div>
+    <template id="card-template">
+        <div class="card">
+            <h2 class="card-title"></h2>
+            <p class="card-text"></p>
+        </div>
+    </template>
+    <hr>
+    <h1> Artist Portfolio</h1>
+    <div id="artist-list"></div>
+    <template id="artist-template">
+        <section class="artist">
+            <h2 class="artist-name"></h2>
+            <div class="portfolio"></div>
+        </section>
+    </template>
+    <template id="portfolio-template">
+        <div class="card">
+            <h3 class="art-title"></h3>
+            <img class="art-image" alt="">
+        </div>
+    </template>
+    <script src="script.js"></script>
+</body>
+
+</html>
