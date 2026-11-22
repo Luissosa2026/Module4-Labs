@@ -12,9 +12,7 @@ const options = {
         type: "bar",
         data: []
     }]
-};
-
-// Pull product data
+};// Pull product data
 fetch("https://fakestoreapi.com/products")
     .then(response => response.json())
     .then(products => {
